@@ -30,6 +30,7 @@ int main(void)
 			musicPlay(); 
 			delay_ms(1500); 
 			delay_ms(1500); 
+	  	delay_ms(1500);
 	} 
 
 	

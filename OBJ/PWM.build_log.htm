@@ -28,10 +28,16 @@ Project File Date:  04/16/2018
 *** Using Compiler 'V5.06 update 3 (build 300)', folder: 'D:\002program files\keil5.2\ARM\ARMCC\Bin'
 Build target 'PWM'
 compiling main.c...
+main.c(18): warning:  #177-D: variable "led0pwmval" was declared but never referenced
+  	u16 led0pwmval=0;    
+main.c(19): warning:  #177-D: variable "dir" was declared but never referenced
+  	u8 dir=1;
+main.c: 2 warnings, 0 errors
+compiling music.c...
 linking...
-Program Size: Code=8604 RO-data=424 RW-data=48 ZI-data=1832  
+Program Size: Code=8662 RO-data=1602 RW-data=48 ZI-data=1832  
 FromELF: creating hex file...
-"..\OBJ\PWM.axf" - 0 Error(s), 0 Warning(s).
+"..\OBJ\PWM.axf" - 0 Error(s), 2 Warning(s).
 
 <h2>Software Packages used:</h2>
 

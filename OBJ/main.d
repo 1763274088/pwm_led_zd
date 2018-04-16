@@ -40,3 +40,4 @@
 ..\obj\main.o: D:\002program files\keil5.2\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\main.o: ..\HARDWARE\LED\led.h
 ..\obj\main.o: ..\HARDWARE\PWM\pwm.h
+..\obj\main.o: ..\MUSIC\music.h
